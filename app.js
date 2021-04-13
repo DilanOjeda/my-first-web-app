@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.set('views' + __dirname + '/views')
 
 app.get('/', (req, res)=>{
-    res.render('index', {title: 'Introduction Nodejs'});
+    res.render('index', {title: 'Introduction'});
 });
 app.get('/services', (req, res)=>{
     res.render('services', {title: 'Services', message: 'This a message'});
